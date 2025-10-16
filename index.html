@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-3">
+            <div class="container">
+                <label class="form-label">Container</label>
+               <div class="d-flex">
+                 <input type="number" placeholder="width" id="cw" class="form-control" onkeyup="cont()">
+                <select name="" id="cws" onchange="cont()"> 
+                    <option value="px">px</option>
+                    <option value="%">%</option>
+                    <option value="vh">vh</option>
+                </select>
+               </div>
+    <!-- header -->
+       <label class="form-label">Header</label>
+               <div class="d-flex">
+                 <input type="number" placeholder="width" id="hw" class="form-control" onkeyup="cont()">
+                <select name="" id="hws" onchange="cont()"> 
+                    <option value="px">px</option>
+                    <option value="%">%</option>
+                    <option value="vh">vh</option>
+                </select>
+               </div>
+
+ <div class="d-flex">
+                 <input type="number" placeholder="height" id="hh" class="form-control" onkeyup="cont()">
+                <select name="" id="hhs" onchange="cont()"> 
+                    <option value="px">px</option>
+                    <option value="%">%</option>
+                    <option value="vh">vh</option>
+                </select>
+               </div>
+               <input type="color" id="hc" class="form-control" onchange="cont()">
+
+<!-- nav bar -->
+
+ <label class="form-label">Nav</label>
+               <div class="d-flex">
+                 <input type="number" placeholder="width" id="nw" class="form-control" onkeyup="cont()">
+                <select name="" id="nws" onchange="cont()"> 
+                    <option value="px">px</option>
+                    <option value="%">%</option>
+                    <option value="vh">vh</option>
+                </select>
+               </div>
+
+ <div class="d-flex">
+                 <input type="number" placeholder="height" id="nh" class="form-control" onkeyup="cont()">
+                <select name="" id="nhs" onchange="cont()"> 
+                    <option value="px">px</option>
+                    <option value="%">%</option>
+                    <option value="vh">vh</option>
+                </select>
+               </div>
+               <input type="color" id="nc" class="form-control" onchange="cont()">
+
+<!-- main -->
+
+ <label class="form-label">Main</label>
+               <div class="d-flex">
+                 <input type="number" placeholder="width" id="mw" class="form-control" onkeyup="cont()">
+                <select name="" id="mws" onchange="cont()"> 
+                    <option value="px">px</option>
+                    <option value="%">%</option>
+                    <option value="vh">vh</option>
+                </select>
+               </div>
+
+ <div class="d-flex">
+                 <input type="number" placeholder="height" id="mh" class="form-control" onkeyup="cont()">
+                <select name="" id="mhs" onchange="cont()"> 
+                    <option value="px">px</option>
+                    <option value="%">%</option>
+                    <option value="vh">vh</option>
+                </select>
+               </div>
+               <input type="color" id="mc" class="form-control" onchange="cont()">
+
+<!-- footer -->
+
+ <label class="form-label">Footer</label>
+               <div class="d-flex">
+                 <input type="number" placeholder="width" id="fw" class="form-control" onkeyup="cont()">
+                <select name="" id="fws" onchange="cont()"> 
+                    <option value="px">px</option>
+                    <option value="%">%</option>
+                    <option value="vh">vh</option>
+                </select>
+               </div>
+
+ <div class="d-flex">
+                 <input type="number" placeholder="height" id="fh" class="form-control" onkeyup="cont()">
+                <select name="" id="fhs" onchange="cont()"> 
+                    <option value="px">px</option>
+                    <option value="%">%</option>
+                    <option value="vh">vh</option>
+                </select>
+               </div>
+               <input type="color" id="fc" class="form-control" onchange="cont()">
+
+
+            </div>
+        </div>
+        <div class="col-9">
+            <div id="cont">
+                <header id="head"></header>
+                <nav id="nav"></nav>
+                <main id="main"></main>
+                <footer id="footer"></footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
