@@ -58,6 +58,19 @@ document.getElementById("aside").style.width = aw + aws
 document.getElementById("aside").style.height = ah + ahs
 document.getElementById("aside").style.backgroundColor = ac
 
+// article
+let tw = document.getElementById("tw").value
+let th = document.getElementById("th").value
+let tc = document.getElementById("tc").value
+
+let tws = document.getElementById("tws").value
+let ths = document.getElementById("ths").value
+
+
+document.getElementById("article").style.width = tw + tws
+document.getElementById("article").style.height = th + ths
+document.getElementById("article").style.backgroundColor = tc
+
 
 //footer
 
