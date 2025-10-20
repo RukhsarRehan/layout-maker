@@ -45,6 +45,20 @@ document.getElementById("main").style.width = mw + mws
 document.getElementById("main").style.height = mh + mhs
 document.getElementById("main").style.backgroundColor = mc
 
+// aside
+let aw = document.getElementById("aw").value
+let ah = document.getElementById("ah").value
+let ac = document.getElementById("ac").value
+
+let aws = document.getElementById("aws").value
+let ahs = document.getElementById("ahs").value
+
+
+document.getElementById("aside").style.width = aw + aws
+document.getElementById("aside").style.height = ah + ahs
+document.getElementById("aside").style.backgroundColor = ac
+
+
 //footer
 
 let fw = document.getElementById("fw").value
